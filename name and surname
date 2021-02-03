@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main(void)
+{
+   char soyisim[20];
+    char isim[20];
+    printf("Enter Your Name: \n");
+   scanf("%s",isim);
+   
+   
+    printf("Enter Your Surname: \n");
+   scanf("%s",soyisim);
+   
+   
+   
+    printf("Girdiginiz isim: %s\n",isim);
+    printf("Girdiginiz soyisim: %s\n",soyisim);
+   
+   
+}
