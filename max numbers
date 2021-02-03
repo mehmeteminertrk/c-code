@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    printf("1.Sayiyi Giriniz: \n");
+    scanf("%d",&a);
+    
+    printf("2.Sayiyi Giriniz: \n");
+    scanf("%d",&b);
+    
+    printf("3.Sayiyi Giriniz: \n");
+    scanf("%d",&c);
+    if(a>b && a>c){
+        printf("Max sayi %d dir");
+    }
+    return 0;
+}
