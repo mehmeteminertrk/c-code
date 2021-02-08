@@ -1,0 +1,26 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int kare(int massaka){
+    int sonuc=massaka*massaka;
+
+    return sonuc;
+}
+
+
+
+int main()
+{
+   int x=5;
+   int karesi;
+   karesi=kare(x);
+   printf("%d",karesi);
+    return 0;
+}
