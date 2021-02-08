@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main()
+{
+  
+  char op;
+  float a,b;
+  printf("Lutfen Bir İslem Giriniz:\n");
+  scanf("%c",&op);
+  
+  printf("Lutfen Birinci Sayiyi Giriniz:\n");
+  scanf("%f",&a);
+  printf("Lutfen İkinci Sayiyi Giriniz:\n");
+  scanf("%f",&b);
+  
+  
+  switch(op){
+      
+      case '+':
+      printf("%f + %f = %f",a,b,a+b);
+      break;
+      case '-':
+      printf("%f - %f= %f",a,b,a-b);
+      break;
+      case '*':
+      printf("%f * %f = %f",a,b,a*b);
+      break;
+      case '/':
+      printf("%f / %f = %f",a,b,a/b);
+      break;
+      default:
+      printf("Hatali islem");
+      break;
+      
+      
+      
+      
+      
+      
+  }
+
+    return 0;
+}
