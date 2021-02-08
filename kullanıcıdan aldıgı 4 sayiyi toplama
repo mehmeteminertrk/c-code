@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i;
+    int tahmin[4];
+    
+    i=0;
+    while(i<4){
+        
+        printf("Lutfen bir tamsayi giriniz:\n");
+        scanf("%d",&tahmin[i]);
+        i++;
+    }
+   int toplam=0;
+    for(i=0;i<4;i++){
+        toplam=toplam+tahmin[i];
+    }
+    printf("Girilen sayilarin toplami:%d dir",toplam);
+    return 0;
+}
