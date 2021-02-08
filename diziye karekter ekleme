@@ -1,0 +1,12 @@
+#include <string.h>
+#include <stdio.h>
+#define emin 71
+#define erturk 9
+int main()
+{
+    char dizim[]="selam dunya massaka";
+    char dizi[emin]="";
+   strncpy(dizi,dizim,8);
+   printf("%s",dizi);
+    return 0;
+}
