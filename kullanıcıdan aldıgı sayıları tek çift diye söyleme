@@ -1,0 +1,30 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main()
+{
+   int sayi1,sayi2;
+   printf("ilk sayiyi giriniz:\n");
+   scanf("%d",&sayi1);
+printf("ikinci sayiyi giriniz:\n");
+   scanf("%d",&sayi2);
+   if(sayi1%2==1){
+       if(sayi2%2==1){
+           printf("iki sayimda tektir");
+       }
+       else{
+           printf("ilk sayim tek ikinci sayim çifttir");
+       }
+   }
+   else{
+       if(sayi2%2==1){
+           printf("ilk sayim çifttir ikinci sayim tektir");
+       }
+       else{
+           printf("iki sayimda çifttir");
+       }
+       
+   }
+
+    return 0;
+}
