@@ -1,0 +1,28 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+#include<string.h>
+#include <stdio.h>
+
+int main()
+{
+    char dizi1[15]="ABcdef";
+    char dizi2[15]="ABCDEF";
+    int sonuc;
+    sonuc=strncmp(dizi1,dizi2,2);
+    
+    if(sonuc<0){
+        printf("dizi1 dizi2 den daha kucuktur");
+    }
+    else if(sonuc>0){
+        printf("dizi1 dizi2 den daha buyuktur");
+    }
+    else{
+        printf("dizi1 dizi2 ye esittir");
+    }
+    return 0;
+}
