@@ -1,0 +1,23 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+   int x,y,z,sayi_total;
+   printf("Yuzler basamagini giriniz:");
+   scanf("%d",&x);
+   printf("Onlar basamagini giriniz:");
+   scanf("%d",&y);
+   printf("Birler basamagini giriniz:");
+   scanf("%d",&z);
+   sayi_total=100*x+10*y+z;
+  printf("%d",sayi_total);
+    return 0;
+}
