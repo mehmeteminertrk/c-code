@@ -1,0 +1,24 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+float sure,ucret;
+printf("Lutfen konusma surenizi giriniz:");
+scanf("%f",&sure);
+if(sure<=3){
+    ucret=0.25;
+}
+else {
+    ucret=0.25+(sure-3)*0.08;
+}
+    printf("Ucret:%f",ucret);
+    return 0;
+}
