@@ -1,0 +1,27 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+   
+   int i=0;
+   char dizi[100];
+   printf("Lutfen bir cumle giriniz:\n");
+   gets(dizi);
+   
+   while(dizi[i]){
+      
+       i++;
+   }
+   
+   printf("Girilen cumledeki karekter sayisi sayisi:%d\n",i);
+
+    return 0;
+}
