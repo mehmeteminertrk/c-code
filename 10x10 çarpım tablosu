@@ -1,0 +1,36 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+#define anonim 10
+
+int main()
+{
+  int i,j;
+  for(i=1;i<=anonim;i++){
+      
+      printf("%4d",i);
+  }
+  printf("\n");
+  for(i=1;i<=anonim;i++){
+      
+      printf("-----");
+  }
+  
+  
+  printf("\n");
+  for(i=1;i<anonim;i++){
+      printf("%4d",i);
+      for(j=1;j<=anonim;j++){
+          printf("%4d",i*j);
+      }
+      printf("\n");
+  }
+
+    return 0;
+}
