@@ -1,0 +1,30 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+void degistir(int *deger1,int *deger2){
+    int degisken;
+    degisken=*deger1;
+    *deger1=*deger2;
+    *deger2=degisken;
+}
+
+
+int main()
+{
+ 
+ int i,j;
+ i=10;
+ j=15;
+ 
+ printf("Cagirmadan once: i=%d j=%d\n",i,j);
+ degistir(&i,&j);
+    printf("Cagirdiktan sonra: i=%d j=%d",i,j);
+    return 0;
+}
