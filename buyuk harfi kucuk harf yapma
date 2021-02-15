@@ -1,0 +1,29 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+   char massaka;
+   printf("Lutfen bir karekter giriniz:\n");
+   scanf("%c",&massaka);
+   
+   if((massaka>='A')&&(massaka<='Z')){
+       printf("Girilen karekterin kucuk hali:%c\n",tolower(massaka));
+   }
+   
+   else{
+       printf("Lutfen Buyuk karekter giriniz");
+   }
+   
+   
+   
+   
+    return 0;
+}
