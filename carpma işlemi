@@ -1,0 +1,39 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+  int x,y;
+  int carpim;
+  printf("Lutfen iki sayi giriniz:\n");
+  scanf("%d%d",&x,&y);
+  carpim+=x*y;
+  if((x==0) && (y==0)){
+      printf("Carpim sifirdir",carpim);
+  }
+  else if((x<0) && (y<0)){
+      printf("Carpim pozitiftir:%d dir",carpim);
+  }
+  else if((x<0) && (y>0)){
+      printf("Carpim negatiftir:%d dir",carpim);
+  }
+  else if((x>0) && (y<0)){
+      printf("Carpim negatiftir:%d dir",carpim);
+  }
+    
+   else if((x==0) && (y!=0)){
+      printf("Carpim sifirdir",carpim);
+  }
+  else{
+      printf("Carpim sifirdir");
+  }
+    return 0;
+    
+}
